@@ -79,7 +79,16 @@ Following table contains Model name and its accuracy on the validation set.
 |Support Vector Machine           |   0.835         |
 |Random Forest Classifier | 0.798|                                
 |MLP               |   0.758         |
+| Multinomial Naive Bayes|  0.76 |
 
-I have taken SVM as best ML Model.
+I have taken SVM as best ML Model. I have tried Bert Classifier also but it is not giving accepted accuracy. 
+
+I have tried different parameters for different ML models.
+For SVM, I have used the following parameters:
+'C': [0.1, 1, 10, 100, 1000], 
+              'gamma': [1, 0.1, 0.01, 0.001, 0.0001],
+              'kernel': ['poly', 'rbf', 'sigmoid']
+
+By using GridSearchCV, I have found best parameters for SVM classification. The parameters are 'C': 10, 'gamma': 1, 'kernel': 'rbf'.
 
 
