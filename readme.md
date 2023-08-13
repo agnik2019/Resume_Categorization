@@ -3,9 +3,9 @@
 ## Instructions to run:
 - First download all the files of that repo
 
-- install the dependencies used in this project `pip install -r requirements.txt`
+- install the dependencies used in this project `pip install -U -r requirements.txt`
 
-- Next run the script file using `python3 script.py $directory path$` The directory path should contain a batch of resumes in pdf format. It will not be processed if the resume is not in pdf format. I have assumed only pdf files to process the resumes.
+- Next run the script file using `python3 script.py $directory path$` The directory path should contain a batch of resumes in pdf format. It will not be processed if the resume is not in pdf format. I have assumed only pdf files to process the resumes. Please add the file separator based on OS after the directory path. For example, in case of macos, if the directory path is "/Users/agniksaha/Downloads" then add `/` at the end. So the directory path will be "/Users/agniksaha/Downloads/". In case of Windows os, add `\\` at the end of directory path.
 
 ## Delieverables
 
