@@ -1,0 +1,6 @@
+keyphrase-vectorizers
+keybert
+PyPDF2
+scikit-learn
+pandas
+pathlib

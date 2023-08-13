@@ -1,0 +1,8 @@
+.ipynb_checkpoints
+data
+saved_weights_2.pt
+test.ipynb
+resume-classifier-rf.pkl
+resume-classifier-mlp.pkl
+resumes_from_pdf.csv
+Resume.csv
